@@ -46,3 +46,8 @@ def plant_advice(plant_type):
 # Print the personalised advice
 print(f"Your advice for gardening in {season}: {season_advice(season)}")
 print(f"Your advice for gardening {plant_type}: {plant_advice(plant_type)}")
+
+# TODO: Possible features to add:
+# - Add seasonal advice for autumn
+# - Add seasonal advice for spring
+# - Add advice for specific plants (e.g. Poppies or Daisies within flowers)
