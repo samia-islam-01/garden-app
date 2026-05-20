@@ -1,14 +1,6 @@
 # User input for season and plant type
-import logging
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(levelname)s: %(message)s"
-)
-
-season = input("Enter season: ").lower()
-plant_type = input("Enter plant type: ").lower()
+season = input("Enter season (summer/winter): ").lower()
+plant_type = input("Enter plant type (flower/vegetable): ").lower()
 
 # Dictionary to hold gardening advice
 advice = {
