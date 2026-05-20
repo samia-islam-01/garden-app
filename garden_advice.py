@@ -1,6 +1,6 @@
 # User input for season and plant type
-season = input("Enter season: ").lower()  # TODO: Replace with input() to allow user interaction.
-plant_type = input("Enter plant type: ").lower()  # TODO: Replace with input() to allow user interaction.
+season = input("Enter season (summer/winter): ").lower()
+plant_type = input("Enter plant type (flower/vegetable): ").lower()
 
 # Dictionary to hold gardening advice
 advice = {
