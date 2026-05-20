@@ -6,11 +6,16 @@ plant_type = input("Enter plant type (flower/vegetable): ").lower()
 advice = {
     "summer" : "Water your plants regularly and provide some shade.\n"
                "Recommended plants to plant in summer are Geranium and Salvias.\n",
+
     "winter" : "Protect your plants from frost with covers.\n"
                "Recommended plants to plant in winter are Primroses and Winter Jasmine.\n",
+
     "other_season" : "No advice for this season.\n",
+
     "flower" : "Use fertiliser to encourage blooms.\n",
+
     "vegetable" : "Keep an eye out for pests!\n",
+
     "other_plant" : "No advice for this plant.\n"
 }
 
@@ -43,6 +48,14 @@ def plant_advice(plant_type):
     return user_advice
 
 
-# Print the personalised advice
-print(f"Your advice for gardening in {season}: {season_advice(season)}")
-print(f"Your advice for gardening {plant_type}: {plant_advice(plant_type)}")
+# Create a user personalised piece of advice
+gardening_advice = season_advice(season)
+gardening_advice += plant_advice(plant_type)
+
+# Output this advice via logging
+logging.info(gardening_advice)
+
+# TODO: Possible features to add:
+# - Add seasonal advice for autumn
+# - Add seasonal advice for spring
+# - Add advice for specific plants (e.g. Poppies or Daisies within flowers)
