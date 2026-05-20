@@ -12,9 +12,11 @@ advice = {
 
     "other_season" : "No advice for this season.\n",
 
-    "flower" : "Use fertiliser to encourage blooms.\n",
+    "flower" : "Use fertiliser to encourage blooms.\n"
+               "Other methods to boost growth are re-potting and giving good access to water and light.",
 
-    "vegetable" : "Keep an eye out for pests!\n",
+    "vegetable" : "Keep an eye out for pests!\n"
+                  "Try to use both barrier methods (e.g. insect mesh) and manual removal (e.g. hand picking off leaves)",
 
     "other_plant" : "No advice for this plant.\n"
 }
